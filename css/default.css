@@ -1,0 +1,212 @@
+* {
+	font-family: 'Poppins', sans-serif;
+	font-weight: normal;
+}
+
+.logo-text {
+	font-size: 1.2em;
+	margin-bottom: 10px;
+}
+
+.localiz-item {
+	color: #a5a5a5;
+}
+
+/*logo color property */
+.logo-left-color {
+	color: #a5a5a5;
+}
+
+.logo-right-color {
+	color: #5b4295;
+}
+
+
+/* links property */
+
+.list-link{
+	color: #a5a5a5;
+	text-decoration: none;
+}
+
+.list-link:hover{
+	color: #959595;
+	border-bottom: 1px solid #959595;
+}
+
+/* login signup btn */
+
+.login,
+.sign-up {
+	border-style: none;
+	font-weight: bolder;
+	font-size: 0.9em;
+}
+
+.login {
+	background-color: white;
+}
+
+
+/* headers color */
+
+.front-image-block {
+	color: #6f6f6e;
+}
+
+/* 3 buttons in header content */
+
+.create-acc-btn,
+.appstore-btn,
+.applestore-btn {
+	background: rgb(100,108,146);
+	background: linear-gradient(90deg, rgba(100,108,146,1) 0%, rgba(95,46,105,1) 100%);
+	border-style: none;
+	color: white;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+
+.create-acc-btn {
+	width: 250px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+.appstore-btn,
+.applestore-btn {
+	width: 50px;
+	height: 50px;
+	border-radius: 25px;
+}
+
+/* alert text color */
+.alert-phrase {
+	color: #fc595d;
+}
+
+/* advantages x2 blocks */
+
+.advantages-block h2,
+.advantage-block h2 {
+	color: #555555;
+}
+
+.advantages-block h3,
+.advantages-block p,
+.advantage-block p,
+.btn-more {
+	color: #9d9c9c;
+}
+
+/* radio buttons with comments */
+
+.radio-scroll {
+	border-style: none;
+	background-color: white;
+}
+
+/* text of comments */
+
+.user-comment,
+.user-comment-data {
+	font-style: italic;
+}
+
+.user-comment {
+	font-size: 1.1em;
+	color: black;
+}
+
+.user-comment-data {
+	font-size: 0.8em;
+	color: #9c9c9c;
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.store-head {
+	font-size: 2em;
+	font-weight: normal;
+	color: #9c9c9c;
+}
+
+.store-phrase {
+	font-size: 0.9em;
+}
+
+/* market buttons */
+
+.play-market-btn,
+.apple-market-btn {
+	border-style: none;
+	color:white;
+	background-color: white;
+	width: 180px;
+	height: 55px;
+}
+
+.apple-market-btn {
+	background-image: url("../img/apple-market.png");
+}
+
+.play-market-btn {
+	background-image: url("../img/play-market.png");
+}
+
+/* donations block */
+
+.pay-block {
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.pay-head,
+.pay-head-bottom {
+	color: #9c9c9c;
+}
+
+.upgrade-plan-btn,
+.donate-btn {
+	width: auto;
+	height: 50px;
+	border-radius: 30px;
+	border-style: none;
+	color: white;
+}
+
+.upgrade-plan-btn {
+	margin-right: 30px;
+	width: 260px;
+	background: rgb(100,108,146);
+	background: linear-gradient(90deg, rgba(100,108,146,1) 0%, rgba(95,46,105,1) 100%); 
+}
+
+.donate-btn {
+	width: 150px;
+	background: rgb(53,187,224);
+	background: linear-gradient(90deg, rgba(53,187,224,1) 0%, rgba(94,123,234,1) 100%); 
+}
+
+/* sponsors */
+
+.sponsors {
+	margin-bottom: 150px;
+}
+
+
+/* footer contact and nav lists */
+
+.footer {
+	margin-bottom: 20px;
+}
+
+.contacts-block {
+	margin-bottom: 80px;
+}
+
+.neuton-nav-list,
+.legal-nav-list,
+.company-nav-list {
+	text-align: right;
+}
