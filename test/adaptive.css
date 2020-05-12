@@ -1,0 +1,11 @@
+@media (max-width: 500px) {
+	body {
+		text-align: center;
+	}
+}
+
+@media only screen and (max-width: 400px) {
+	body {
+		text-align: center;
+	}
+}

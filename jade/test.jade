@@ -1,0 +1,30 @@
+mixin tableData
+	.tableData
+		h2 destroy reality
+			ul
+				li me@me.com
+				li limem@dom
+
+doctype html
+html
+	head
+		title My first jade
+		link(href='./css/default.css', rel='stylesheet')
+
+	body
+		div.main
+			h1 Hello web!
+			p I'm fine thank you.
+
+
+
+		div.content
+			h3 Geros
+			+tableData
+		.h3 Food
+
+		div.mail
+			h3 Pharos
+		.h3 Good
+
+

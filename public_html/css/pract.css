@@ -1,0 +1,60 @@
+#img-list {
+	height: 100%;
+	overflow: hidden;
+}
+
+#img-list li {
+	display: inline;
+}
+
+.scroll {
+	width: 80%;
+	margin: 0px auto;
+	height: 200px;
+	border: 2px dotted silver;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.options {
+	width: 880px;
+	margin: 10px auto;
+}
+
+.options input {
+	display: block;
+}
+
+/* 2 */
+
+#img-list-2 {
+	height: 100%;
+	overflow: hidden;
+}
+
+#img-list-2 li {
+	display: inline;
+}
+
+.scroll-2 {
+	width: 80%;
+	margin: 0px auto;
+	height: 200px;
+	border: 2px dotted silver;
+	margin-top: 20px;
+	text-align: center;
+}
+
+.options-2 {
+	width: 880px;
+	margin: 10px auto;
+}
+
+.options-2 input {
+	display: block;
+}
+
+.tab {
+	border: 2px solid black;
+	margin: 10px;
+}

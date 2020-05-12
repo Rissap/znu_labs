@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Call me maybe</title>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" type="text/css" href="../css/default.css">
+	<link rel="stylesheet" type="text/css" href="../css/pract.css">
+
+	<link rel="stylesheet" href="../owl/dist/assets/owl.carousel.css" type="text/css">
+	<link rel="stylesheet" href="../owl/dist/assets/owl.theme.default.min.css" type="text/css">
+	
+	<link href="../css/lightbox.css" rel="stylesheet">
+	<link rel="stylesheet" href="../css/colorbox.css">
+
+	<link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+</head>
+
+<body>
+	
+	<header class="top-menu">
+  		<ul class="menu-list">
+		    <li class="header-li"><a href="../index.html" class="menu-link">Главная</a></li>
+		    <li class="header-li"><a href="../html/timetable.html" class="menu-link">Расписание</a></li>
+		    <li class="header-li"><a href="../html/news.html" class="menu-link">Новости</a></li>
+		    <li class="header-li"><a href="../html/photo.html" class="menu-link">Фотографии</a></li>
+		    <li class="header-li"><a href="../html/pract.html" class="menu-link">Практика</a></li>
+
+		    <li class="header-li-right"><a href="https://t.me/Rissap"><img src="../img/telegram.png" alt="telegram"></a></li>
+  			<li class="header-li-right"><a href="https:\\github.com\Rissap"><img src="../img/github.png" alt="github"></a></li>
+  		</ul>
+	</header>
+		<!--
+		<div class="scroll">
+			<ul class="img-list" id="img-list">
+			</ul>
+		</div>
+
+		<div class="options">
+			<p>Amount: 1 img</p><input type="range" min="1" max="4" step="1" id="amount" oninput="upd_slide()"><p>4 img</p>
+			<p>Speed: 1 sec</p><input type="range" min="1" max="5" step="1" id="speed" oninput="upd_slide()"><p>5 sec</p>
+			<p>Width: 220px</p><input type="range" min="200" max="800" step="200" id="width" oninput="upd_slide()"><p>880px</p>
+		</div>
+
+		<hr>
+
+		<div class="scroll-2">
+			<ul class="img-list-2" id="img-list-2">
+			</ul>
+		</div>
+
+		<div class="options-2">
+
+			<p>Amount: 1 ~ 4 img</p><input type="range" min="1" max="4" step="1" id="amount-2" oninput="upd_slide()">
+			<p>Speed: 1 sec ~ 5 sec</p><input type="range" min="1" max="5" step="1" id="speed-2" oninput="upd_slide()">
+			<p>Width: 220px ~ 880px</p><input type="range" min="200" max="800" step="200" id="width-2" oninput="upd_slide()">
+		</div>
+	-->
+
+
+	<div class="owl-carousel">
+		<div>
+			<img src="../img/2.png">
+		</div>
+		<div>
+			<img src="../img/3.png">
+		</div>
+		<div>
+			<img src="../img/4.png">
+		</div>
+		<div>
+			<img src="../img/5.png">
+		</div>
+		<div>
+			<img src="../img/6.png">
+		</div>
+		<div>
+			<img src="../img/7.png">
+		</div>
+		<div>
+			<img src="../img/8.png">
+		</div>
+	</div>
+
+	<div class="wrapper">
+	    <div class="tabs">
+	        <span class="tab">Вкладка 1</span>
+	        <span class="tab">Вкладка 2</span>
+	    </div>
+    	
+    	<div class="tab_content">
+	        <div class="tab_item">
+        		<h2>Первый блок изображений!</h2>
+	        	<a href="../img/1.png" data-lightbox="roadtrip"><img src="../img/1.png"></a>
+	        	<a href="../img/2.png" data-lightbox="roadtrip"><img src="../img/2.png"></a>
+				<a href="../img/3.png" data-lightbox="roadtrip"><img src="../img/3.png"></a>
+	        	<a href="../img/4.png" data-lightbox="roadtrip"><img src="../img/4.png"></a>
+	        </div>
+
+        	<div class="tab_item">
+        		<h2>Второй блок изображений!</h2>
+        		<a class='gallery' href='../img/5.png'><img src="../img/5.png" alt="Drop me"></a>
+    			<a class='gallery' href='../img/6.png'><img src="../img/6.png"></a>
+    			<a class='gallery' href='../img/7.png'><img src="../img/7.png"></a>
+        		<a class='gallery' href='../img/8.png'><img src="../img/8.png"></a>
+        	</div>
+    	</div>
+
+	</div>
+
+
+	<footer class="footer">
+		<p>riisa.toro@gmail.com</p>
+		<p>Portfolio site</p>
+	</footer>
+
+
+<!--<script src="../js/scroll.js"></script>-->
+<script src="../owl/docs/assets/vendors/jquery.min.js"></script>
+
+<script src="../owl/dist/owl.carousel.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+  $(".owl-carousel").owlCarousel();
+});
+</script>
+
+<script src="../js/tabs.js"></script>
+
+<script src="../js/lightbox.js"></script>
+
+  <script src="../js/jquery.colorbox-min.js"></script>
+<script>
+  jQuery('a.gallery').colorbox({rel:'gal'});
+</script>
+
+<!--<script src="../js/jqScroll.js"></script>-->
+</body>
+
+</html>

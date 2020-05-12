@@ -1,0 +1,98 @@
+/*
+
+.content {
+	text-align: center;
+	margin: 10px 0px;
+}
+
+table {
+	width: 100%;
+	text-align: center;
+	border-collapse: collapse;
+	border-bottom: 10px solid #EBEBEB;
+}
+
+th, td {
+	padding: 10px 5px;
+}
+*/
+
+table {
+  margin: 0 auto;
+  width: 95%;
+  text-align: center;
+  border-collapse: collapse;
+  border-bottom: 10px solid #EBEBEB;
+}
+
+.table-head {
+	background-color: #EBEBEB;
+}
+
+.mark-color {
+	background-color: #EBEBEB;
+}
+
+
+@media only screen and (min-width: 320px) {
+ h1 {
+  font-size: 15pt;
+  margin: 10px;
+  text-align: center;
+ }
+
+  table {
+      display: block;
+      overflow: auto;
+  }
+
+  .mark-color {
+    background-color: 
+  }
+
+}
+
+@media only screen and (min-width: 576px) {
+  /*apply style for 320px*/
+}
+
+
+@media only screen and (min-width: 768px) { 
+  h1 {
+    font-size: 20pt;
+  }
+
+  th, td {
+  padding: 10px 5px;
+}
+}
+
+
+@media only screen and (min-width: 992px) { 
+  table {
+    display: table;
+    width: 900px;
+    overflow: none;
+    margin: 0px auto;
+
+    th, td {
+     padding: 10px 5px;
+    }
+  }
+
+
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+  table {
+    width: 900px;
+    margin: 0px auto;
+  }
+
+  th, td {
+    padding: 10px 5px;
+  }
+
+}
