@@ -1,0 +1,1 @@
+***Folder with all labs for digital ZNU***
