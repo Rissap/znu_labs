@@ -6,9 +6,9 @@
 package l6;
 
 /**
- *
- * @author Riisa
- */
+* @author Daniil Istomin
+* Класс <code>Pyramid</code> наследник бинарного дерева
+*/
 public class Pyramid {
     
     Pyramid(){ 

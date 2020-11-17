@@ -1,6 +1,18 @@
 package l6;
 import java.lang.Math;
 
+
+/**
+* @author Daniil Istomin
+* Класс <code>ObjectTree</code> бинарное дерево
+* @version 0.1
+* @param "value" -  значение каждого узла
+* @param "Level" -  уровень узла
+* @param "Number" -  порядковый номер узла
+* @param "ID" -  айди узла
+* @param "FirstRef" -  первый дочерний узел
+* @param "SecondRef" -  второй дочерний узел
+*/
 public class ObjectTree {
     public static int IDnum=8; // Количество цифр в ID-коде объектакоде объекта
     

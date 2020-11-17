@@ -7,10 +7,15 @@ package l6;
 
 /**
  *
- * @author Riisa
+ * @author Daniil Istomin
+ * Объект <code>L6</code>  = главный класс
  */
 public class L6 {
 
+    /**
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         ObjectTree tree = new ObjectTree(3, 'A', 1); // Создание дерева
         
