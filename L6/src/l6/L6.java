@@ -11,15 +11,31 @@ package l6;
  */
 public class L6 {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        ObjectTree tree=new ObjectTree(3,'A',1); // Создание дерева
+        ObjectTree tree = new ObjectTree(3, 'A', 1); // Создание дерева
         
-        //System.out.println("\tПроверка структуры дерева объектов!");
-        //tree.FirstRef.SecondRef.show();// Вывод объекта С 2
+        System.out.println("Проверка целостности: " + tree.isFullTree());
         
+        System.out.println("Проверка возможности вставки в узел: " + tree.hasEmptySpace("A".charAt(0), 1));
+        
+        System.out.println("Добавление элемента в узел [350] ");
+        tree.putElement(350, "B".charAt(0), 2);
+        tree.show();
+        
+        System.out.println("Удаление элемента из узла [350]");
+        
+        tree.delElement("B".charAt(0), 2);
+        tree.show();
+        
+        System.out.println("Проверка целостности: " + tree.isFullTree());
+        
+        System.out.println("Восстановление целостности... ");
+        tree.fixBroken();
+        System.out.println("Проверка целостности: " + tree.isFullTree());
+        
+        System.out.println("Конструктор по количеству узлов [2] ...");
+        ObjectTree new_tree = new ObjectTree(2);
+        new_tree.show();
         
     }
     

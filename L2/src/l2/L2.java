@@ -93,8 +93,10 @@ public class L2 {
     }
     
     public static void transp() {
-        int m = (int)(Math.random()*10);
-        int n = (int)(Math.random()*10);
+        Scanner in = new Scanner(System.in);
+        System.out.println("Size of square matrix: ");
+        int m = in.nextInt();
+        int n = m;
         
         int array[][] = new int[m][n];
         int result[][] = new int[n][m];

@@ -7,24 +7,27 @@ import java.util.Scanner;
 
 public class L1 {
     public static void main(String[] args) {
-        //summ();
-        //sub();
-        //mul();
-        //div();
-        //factorial();
-        //hypotenuse();
-        //pow();
-        //System.out.println("sqrt(81) = "+sqrt(81));
-        //System.out.println("Число Пи (Лейбниц): "+leibnic());
-        //System.out.println("Число Пи (Валлис): "+vallis());
-        //work();
-        //firma(2);
-        //swipeMaxMin();
-        //bubbleSort();
-        //average();
-        //evenOdd();
-        //randomTable();
-        //concat();
+        summ();
+        sub();
+        mul();
+        div();
+        factorial();
+        hypotenuse();
+        pow();
+        Scanner in = new Scanner(System.in);
+        System.out.println("Основание квадратного корня: ");
+        System.out.println(Math.sqrt((int)in.nextInt()));
+        System.out.println("Число Пи (Лейбниц): "+leibnic());
+        System.out.println("Число Пи (Валлис): "+vallis());
+        work();
+        firma(2);
+        swipeMaxMin();
+        System.out.println("");
+        bubbleSort();
+        average();
+        evenOdd();
+        randomTable();
+        concat();
     }
     
     public static void summ() {
